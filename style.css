@@ -1,0 +1,151 @@
+html{
+    font-size: 15px;
+}
+
+body{
+    margin: 0 auto;
+    
+    text-align:center;
+    
+        
+    font-family: 'Oswald', sans-serif;
+    font-size: 15;
+    
+    background-color: red;
+    color: bisque;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    margin: 20 auto; 
+}
+
+
+
+.text{
+    margin-bottom: 40;
+}
+
+.text > p:first-of-type{
+    color: orangered;
+}
+
+
+.text span{
+    background-color:#eee;
+}
+
+.text span[title] {
+    text-decoration: underline;
+}
+
+.list{
+    margin-bottom: 40px;
+}
+
+
+.list li:nth-child(odd){
+    color: blue;
+}
+
+
+
+.table{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: skyblue;
+}
+
+
+.label{
+    color:aqua;
+}
+
+
+.checkbox:checked + .label{
+    color: #121212;
+}
+
+
+/* img */
+img {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    
+    opacity: 0;
+    transition: opacity 0.3s linear;
+    
+}
+
+img:hover {
+    opacity: 1;    
+}
+
+
+/* container */
+
+.container{
+    float: left;
+    width: 70%;
+    padding:20;
+    margin: 20px auto;
+    background-color: black;
+}
+
+.content:before,
+ .content:after{
+    content:"";
+    display: block;
+    width: 100%; 
+} 
+
+.title{
+    color: orange;
+}
+
+
+.nav-link{
+    
+}
+
+
+
+/*btn*/
+
+
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background-color:antiquewhite;
+    
+    font-size: 15px;
+    
+    text-decoration:none;
+    box-shadow: 0 3px 3px;
+}
+
+
+/* sidebar */
+
+.sidebar {
+    float: right;
+    width: 30%;
+    
+    background-color: black;
+    color:beige;
+}
+
+
+.footer {
+    background-color: black;
+    color: beige;
+    clear: both;
+}
